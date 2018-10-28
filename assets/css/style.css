@@ -12,10 +12,10 @@ header {
     border-bottom: 2pt;
     padding: 3em 0 3em 0;
     background-color: #ffffff;
-    width: 100%;
+    
 }
 
-header .container {
+header  {
     width: 960px;
     margin: 0 auto;
     top: 0;
@@ -250,12 +250,12 @@ input {
 }
 
 @media screen and (max-width: 980px){
-    header .container {
+    header, .Links  {
     position: static;
     height: 16px
     }
 
-    .wrapper {
+    .wrapper, .Content {
         width: 100%;
     }
 
@@ -267,34 +267,37 @@ input {
 }
 
 @media screen and (max-width: 768px){
-    header .container {
+    header {
     position: static;
-    height: 16px
+    height: 16px;
+    
     }
 
-    .wrapper {
+    .wrapper, {
         width: 100%;
+        
     }
 
     .logo {
-        clear: left
+        clear: left;
     }
 
 
 }
 
 @media screen and (max-width: 640px){
-    header .container {
+    header {
     position: static;
-    height: 16px
+    height: 16px;
     }
 
     .wrapper {
         width: 100%;
+        
     }
 
     .logo {
-        clear: left
+        clear: left;
     }
 
 
